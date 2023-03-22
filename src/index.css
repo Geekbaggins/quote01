@@ -1,0 +1,48 @@
+*{
+  color: white;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color:black
+}
+
+#tweet-quote{
+  font-size: 26px
+}
+#shares{
+  display:flex;
+  justify-content:space-evenly;
+   margin: 15px
+  
+}
+
+#text {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+#author {
+  font-style: italic;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 2rem;
+}
+
+#quote-box{
+  width:50%;
+  margin: auto;
+  border: solid white 1px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+  #quote-box{
+    width:95%;}
+}
